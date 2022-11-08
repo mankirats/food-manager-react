@@ -51,14 +51,35 @@ const HeaderCartImage = styled.img`
 const HeaderCartItems = styled.span`
     position: absolute;
     font-size: 1.1rem;
-    top: -5px;
-    right: -5px;
-    width: 1.2rem;
+    top: -7px;
+    right: -10px;
+    min-width: 1.5rem;
+    padding: 0.2rem;
     background-color: #8fcae6;
     font-weight: 400;
-    border-radius: 25px;
+    border-radius: 40px;
+`;
+
+const HomeMealSummaryContainer = styled(Container)`
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: none;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7);
+    div:nth-child(2) {
+        /* width: 60%; */
+        text-align: justify;
+    }
+    margin: auto;
+    padding: 0rem 2rem 1rem 2rem;
+    border-radius: 10px;
 `;
 export {
+    HomeMealSummaryContainer,
     HeaderContainer,
     Container,
     Logo,
