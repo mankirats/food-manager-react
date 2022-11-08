@@ -10,7 +10,7 @@ const HeaderCart = (props) => {
         <HeaderCartContainer>
             <HeaderCartImage src={CartIcon}></HeaderCartImage>
             <span>&nbsp;CART</span>
-            <HeaderCartItems>3</HeaderCartItems>
+            <HeaderCartItems>32</HeaderCartItems>
         </HeaderCartContainer>
     );
 };
