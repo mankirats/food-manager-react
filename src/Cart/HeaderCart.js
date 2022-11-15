@@ -3,7 +3,7 @@ import {
     HeaderCartContainer,
     HeaderCartImage,
     HeaderCartItems,
-} from "../CustomStyle";
+} from "../styles/CustomStyle";
 import CartIcon from "../assets/Cart1.png";
 const HeaderCart = (props) => {
     return (
