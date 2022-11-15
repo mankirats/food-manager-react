@@ -1,6 +1,6 @@
 import React from "react";
 import backImg from "../assets/back.jpg";
-import { CarouselImage } from "../CustomStyle";
+import { CarouselImage } from "../styles/CustomStyle";
 const Carousel = (props) => {
     return (
         <div>
