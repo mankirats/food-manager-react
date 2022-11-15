@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeMealSummaryContainer } from "../CustomStyle";
+import { HomeMealSummaryContainer } from "../styles/CustomStyle";
 const HomeMealSummary = () => {
     return (
         <>
